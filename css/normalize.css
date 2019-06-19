@@ -252,9 +252,8 @@ input,
 optgroup,
 select,
 textarea {
-  
+
   font: inherit; /* 2 */
-  margin: 0; /* 3 */
 }
 
 /**
