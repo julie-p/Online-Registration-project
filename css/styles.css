@@ -84,6 +84,7 @@ input[type="tel"],
 textarea,
 select {
   border: none;
+  border-radius: 4px;
   font-size: 16px;
   padding: 15px;
   width: 100%;
@@ -98,14 +99,26 @@ select {
   text-align: right;
   opacity: 0.7;
   padding-right: 5px;
+  color: #495867;
 }
 
 input:focus,
 textarea:focus,
 select:focus {
-    background-color: #B7CEE8;
-    outline: none;
-    transition-property: all, -moz-specific, sliding;
+  background-color: #B7CEE8;
+  outline: none;
+  transition-property: all, -moz-specific, sliding;
+}
+
+input:hover,
+textarea:hover,
+select:hover {
+  background-color: #B7CEE8;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  -ms-transition: all .5s ease-out;
+  transition: all .4s ease-out;
 }
 
 #state {
@@ -113,8 +126,18 @@ select:focus {
   padding: 15px;
 }
 
+#state:hover {
+  color: #F5F5F5;
+}
+
 option {
-  color: #495867;
+  color: #F5F5F5;
+}
+
+#zipcode {
+  width: 150px;
+  float: left;
+  clear: left;
 }
 
 /*--------- Fieldset for Newsletter ---------*/
@@ -169,7 +192,12 @@ button {
 }
 
 button:hover {
-  background-color: #B7CEE8
+  background-color: #B7CEE8;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  -ms-transition: all .5s ease-out;
+  transition: all .5s ease-out;
 }
 
 /*--------- Footer ---------*/
@@ -208,6 +236,10 @@ footer {
   select {
     display: inline-block;
     width: 60%;
+  }
+
+  #zipcode {
+    float: none;
   }
 
   .newsletter {
