@@ -1,0 +1,205 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #495867;
+}
+
+/*--------- Header ---------*/
+
+header {
+  text-align: center;
+  background-color: #B7CEE8;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  font-family: 'PT Mono', monospace;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+/*--------- Form ---------*/
+
+form {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/*--------- Introduction ---------*/
+
+.intro {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+h2 {
+  font-weight: bold;
+}
+
+.sub_intro {
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  padding: 0px 15px 5px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  border-bottom: 4px solid #577399;
+}
+
+/*--------- Fieldset for Contact Info ---------*/
+
+fieldset {
+  border: none;
+}
+
+.container_contact {
+  width: 100%;
+  margin: 0 auto;
+  border-top: 1px solid #577399;
+}
+
+legend {
+  font-size: 1.4em;
+  font-weight: bold;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+  border: none;
+  font-size: 16px;
+  padding: 15px;
+  width: 100%;
+  background-color: #D8DBE2;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.04) inset;
+  margin-bottom: 30px;
+}
+
+::placeholder {
+    font-style: italic;
+    text-align: right;
+    opacity: 0.5;
+    padding-right: 5px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    background-color: #B7CEE8;
+    outline: none;
+    transition-property: all, -moz-specific, sliding;
+}
+
+#state {
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+option {
+  color: #495867;
+}
+
+/*--------- Fieldset for Newsletter ---------*/
+
+.container_news {
+  width: 100%;
+  margin: 0 auto;
+  border-top: 1px solid #577399;
+}
+
+.checkbox,
+.radio {
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 5px 10px 0;
+}
+
+button {
+  padding: 15px 35px 15px 35px;
+  color: white;
+  background-color: #577399;
+  font-size: 1em;
+  text-align: center;
+  border-radius: 5px;
+  width: 96%;
+  border: none;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #B7CEE8
+}
+
+/*--------- Footer ---------*/
+
+footer {
+  text-align: center;
+  opacity: 0.7;
+  font-size: 0.9em;
+  padding-top: 10px;
+}
+
+/*--------- Media Query ---------*/
+
+@media (min-width: 768px) {
+  form {
+    width: 40%;
+  }
+
+  .contact {
+    text-align: left;
+  }
+
+  .labels {
+    display: inline-block;
+	  text-align: left;
+	  width: 30%;
+	  margin-top: 10px;
+	  vertical-align: top;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select {
+    display: inline-block;
+    width: 60%;
+  }
+
+
+
+}
