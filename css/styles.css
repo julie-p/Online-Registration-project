@@ -39,12 +39,8 @@ form {
   padding-bottom: 5px;
   text-align: center;
 }
-h2 {
-  font-weight: bold;
-}
 
 .sub_intro {
-  width: 100%;
   text-align: center;
   padding: 0px 15px 5px;
   margin: 0 auto;
@@ -65,17 +61,15 @@ fieldset {
   margin: 0 auto;
   border-top: 1px solid #577399;
   padding-top: 15px;
-  padding-bottom: 40px;
+  padding-bottom: 35px;
 }
 
 legend {
   font-size: 1.4em;
   font-weight: bold;
   padding-top: 20px;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
+  padding-bottom: 20px;
   text-align: left;
-
 }
 
 label {
@@ -94,15 +88,15 @@ select {
   padding: 15px;
   width: 100%;
   background-color: #D8DBE2;
-  color: #8a97a0;
+  color: #495867;
   box-shadow: 0 1px 0 rgba(0,0,0,0.04) inset;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 ::placeholder {
     font-style: italic;
     text-align: right;
-    opacity: 0.5;
+    opacity: 0.6;
     padding-right: 5px;
 }
 
@@ -137,18 +131,18 @@ option {
   display: inline-block;
   text-align: left;
   width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 label.light {
-  font-weight: 300;
+  font-weight: 400;
   display: inline;
 }
 
 input[type="radio"],
 input[type="checkbox"] {
-  margin: 0 5px 10px 0;
+  margin: 0 10px 10px 0;
 }
 
 textarea {
@@ -162,10 +156,9 @@ button {
   font-size: 1em;
   text-align: center;
   border-radius: 5px;
-  width: 100%;
+  width: 95%;
   border: none;
   box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
-  margin-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -215,6 +208,10 @@ footer {
     padding: 0;
   }
 
+  button {
+    width: 100%;
+    margin-top: 5px;
+  }
 
 
 }
