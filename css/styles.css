@@ -36,7 +36,7 @@ form {
 
 .intro {
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
   text-align: center;
 }
 h2 {
@@ -46,10 +46,9 @@ h2 {
 .sub_intro {
   width: 100%;
   text-align: center;
-  font-weight: 400;
   padding: 0px 15px 5px;
   margin: 0 auto;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   letter-spacing: 1px;
   line-height: 1.5em;
   border-bottom: 4px solid #577399;
@@ -65,14 +64,18 @@ fieldset {
   width: 100%;
   margin: 0 auto;
   border-top: 1px solid #577399;
+  padding-top: 15px;
+  padding-bottom: 40px;
 }
 
 legend {
   font-size: 1.4em;
   font-weight: bold;
   padding-top: 20px;
+  padding-bottom: 10px;
   margin-bottom: 10px;
   text-align: left;
+
 }
 
 label {
@@ -126,6 +129,7 @@ option {
   width: 100%;
   margin: 0 auto;
   border-top: 1px solid #577399;
+  padding-top: 15px;
 }
 
 .checkbox,
