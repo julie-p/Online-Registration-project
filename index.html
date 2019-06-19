@@ -30,7 +30,7 @@
         </section>
 
 <!-- Fieldset for Contact Info -->
-        <section class="container_contact">
+        <div class="container_contact">
           <fieldset class="contact">
 
             <legend>Contact Information</legend>
@@ -132,36 +132,36 @@
               <label class="labels" for="zipcode">Zip Code</label>
               <input type="text" id="zipcode" name="user_zipcode">
             </fieldset>
-          </section>
+          </div>
 
 
 
 <!-- Fieldset for Newsletter -->
-      <section class="container_news">
+      <div class="container_news">
         <fieldset class="newsletter">
 
           <legend>Newsletter</legend>
 
           <label>Select the newsletters you would like to receive</label>
 
-          <section class="checkbox">
+          <div class="checkbox">
             <input type="checkbox" id="html" value="html_news" name="user_interest"><label class="light" for="html">HTML News</label><br>
             <input type="checkbox" id="css" value="css_news" name="user_interest"><label class="light" for="css">CSS News</label><br>
             <input type="checkbox" id="javascript" value="js_news" name="user_interest"><label class="light" for="javascript">JavaScript News</label>
-          </section>
+          </div>
 
           <label>Newsletter format</label>
 
-          <section class="radio">
+          <div class="radio">
             <input type="radio" id="html_format" value="html_format" name="news_format"><label for="html_format" class="light">HTML</label><br>
             <input type="radio" id="plain" value="plain" name="news_format"><label for="plain" class="light">Plain text</label>
-          </section>
+          </div>
 
           <label for="other">Other topics you'd like to hear about</label>
           <textarea id="other" name="user_othertopics"></textarea>
 
         </fieldset>
-      </section>
+      </div>
 
         <button type="submit">Sign Up</button>
 
